@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: azure;
+    margin-left: 10px;
+}
+
+#wrapper {
+    width: 780px;
+    margin-top: 20px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+#header {
+    background: url(https://www.solidbackgrounds.com/images/1080x1920/1080x1920-dark-midnight-blue-solid-color-background.jpg) repeat-x #555;
+    height: 100px;
+    padding: 5px;
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+#header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-menu{
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    padding: 8px 30px;
+    border-left: 1px solid darkblue;
+}
+
+#main-menu li {
+    float: left;
+    margin-left: 5px;
+    padding: 15px 20px; 
+}
+
+#main-menu li a {
+    color: cornflowerblue;
+    text-decoration: dashed blue;
+    padding-left: 1px;
+}
+
+#header form {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#header form input {
+    border: none;
+    height: 20px;
+}
+
+#daftar-artikel {
+    width: 300px;
+    float: left;
+}
+
+.artikel {
+    background: wheat;
+    padding: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.artikel img {
+    float: left;
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+
+.artikel b {
+    color: darkslateblue;
+    background: beige;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.artikel p {
+    margin: 10px 0;    
+}
+
+.artikel a {
+    display: block;
+    text-align: right;
+    color: black;
+}
+
+#sidebar {
+    width: 260px;
+    float: inline-end;
+}
+
+#sidebar h2 {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#sidebar p {
+    line-height: 18px;
+    color: steelblue;
+}
+
+#sidebar ul {
+    margin-left: 35px;
+}
+
+#sidebar ul a {
+    color: darkblue;
+    text-decoration: dotted;
+}
+
+#footer {
+    clear: both;
+    margin-left: 0;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+    color: darkblue;
+}
