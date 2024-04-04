@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: black;
+    margin-left: 10px;
+}
+
+#spotify {
+    width: 780px;
+    margin-top: 40px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+#header {
+    margin-top: 0;
+}
+
+#header img {
+    float: left;
+    padding-bottom: 10px;
+}
+
+#main-menu{
+    float: right;
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-right: 215px;
+    margin-left: 10px;
+    border-left: 1px solid whitesmoke;
+}
+
+#main-menu li {
+    float: left;
+    margin : 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+
+#main-menu li a {
+    color: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#header form {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#header form input {
+    float: right;
+    border: none;
+    height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.drake {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.drake2 {
+    font-size: 35px;
+    font-style: bold;
+}
+
+#daftar-artikel {
+    padding: 15px 15px 15px 15px;
+    margin: 10px 15px 15px 15px;
+    width: 300px;
+    float: left;
+    text-align: justify;
+    border: 0.5px solid rgb(58, 157, 81);
+    border-radius: 15px;
+}
+
+.article {
+    padding: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.article img {
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.date {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.play {
+    color: rgb(58, 157, 81);
+    text-decoration: underline;
+}
+
+.plays {
+    color: rgb(58, 157, 81);
+    text-decoration: underline;
+    margin-right: 27px;
+}
+
+.artikel a {
+    display: block;
+    text-align: right;
+    color: black;
+}
+
+#sidebar {
+    width: 250px;
+    float: right;
+    padding-right: 30px;
+    background-color: rgb(20, 91, 77, 0.3);
+    background-repeat: repeat-y;
+    height: 370px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.what {
+    font-size: 20px;
+    font-style: bold;
+    margin: 60px 10px 10px 30px;
+}
+
+.what2 {
+    line-height: 18px;
+    color: rgb(195, 209, 221);
+    margin: 20px 10px 10px 30px;
+
+}
+
+.plan {
+    margin: 20px 10px 10px 30px;
+}
+
+#sidebar ul {
+    margin: 20px 10px 10px 50px;
+}
+
+#sidebar ul a {
+    color: whitesmoke;
+    text-decoration: dotted;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+    background-color: beige;
+    padding: 30px;
+    color: aliceblue; 
+}
+
+.contact {
+    clear: both;
+    text-align: center;
+    margin-top: 445px;
+    background-color: rgb(20, 91, 77, 0.5);
+    padding: 15px;
+    color: whitesmoke; 
+}
